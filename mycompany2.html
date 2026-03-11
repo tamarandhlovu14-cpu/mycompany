@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EuroParts | European Truck & Van Parts</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#822121;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#b30000;
+padding:15px 40px;
+color:rgb(22, 8, 8);
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+background-image:url("https://images.pexels.com/photos/93398/pexels-photo-93398.jpeg");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero button{
+background:red;
+color:white;
+border:none;
+padding:12px 25px;
+margin-top:15px;
+cursor:pointer;
+}
+
+.products{
+padding:60px;
+text-align:center;
+}
+
+.product-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+width:220px;
+box-shadow:0 3px 8px rgba(0,0,0,0.2);
+border-radius:8px;
+}
+
+.card img{
+width:100%;
+height:140px;
+object-fit:cover;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+.card:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+.branches{
+background:#eee;
+padding:60px;
+text-align:center;
+}
+
+.branch-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.branch{
+background:white;
+padding:20px;
+width:220px;
+box-shadow:0 3px 8px rgba(0,0,0,0.2);
+border-radius:8px;
+}
+
+.branch:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+input, textarea{
+display:block;
+margin:10px auto;
+padding:10px;
+width:260px;
+}
+
+button{
+background:#b30000;
+color:white;
+border:none;
+padding:12px 20px;
+cursor:pointer;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo"><b>EUROPARTS </b></div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#branches">Branches</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h1>European Truck & Van Replacement Parts</h1>
+<p>Quality commercial truck and van parts you can trust.</p>
+<button>View Products</button>
+</section>
+
+<section id="products" class="products">
+
+<h2>Our Products</h2>
+
+<div class="product-container">
+
+<div class="card">
+<img src="ad eBay _ $40_00 _ Carquest Professional Platinum Brake Pads_ With Hardware PXD1084H NOS _ Parts & A.jpg">
+<h3>Brake Pads</h3>
+<p>High performance brake pads for European trucks.</p>
+</div>
+
+<div class="card">
+<img src="6pcs 2234788 Oil Filter Compatible With Daf Truck Parts Diesel Filter.jpg">
+<h3>Oil Filters</h3>
+<p>Durable filters for commercial vans.</p>
+</div>
+
+<div class="card">
+<img src="Clutch Kit 3pcs For Mitsubishi L200 B40 2_5td (2006_on) Brand Special Offer.jpg">
+<h3>Clutch Kits</h3>
+<p>Heavy duty clutch kits for long lasting performance.</p>
+</div>
+
+<div class="card">
+<img src="AUTOMOTIVE TIMING BELT.jpg">
+<h3>Engine Belts</h3>
+<p>Reliable engine belts for vans and trucks.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="branches" class="branches">
+
+<h2>Our Branches</h2>
+
+<div class="branch-container">
+
+<div class="branch">
+<h3>Harare</h3>
+<p>077 238 5385</p>
+<p>No 30 Kaguvi Street, Harare CBD</p>
+</div>
+
+<div class="branch">
+<h3>Bulawayo</h3>
+<p>077 538 5385</p>
+<p>123 Maison Moyo Court, Bulawayo</p>
+</div>
+
+<div class="branch">
+<h3>Masvingo</h3>
+<p>077 294 0969</p>
+<p>Roko Bazar, Edison Zvobgo Street</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+
+<p>EUROPARTS</p>
+<p>European Commercial Truck & Van Replacement Parts</p>
+<p><strong>When Reliability Matters</strong></p>
+
+</footer>
+
+</body>
+</html>
